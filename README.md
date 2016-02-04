@@ -8,5 +8,5 @@ from lib.translator import GoogleTranslate as translator
 
 translation = translator.translate("es", "en", "Esto es una prueba")
 
-print translation
+print translation # output: This is a test
 ```
